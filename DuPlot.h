@@ -14,12 +14,12 @@ public:
 
     void drawGraph();
 
-    void setX(const QVector<double> x)
+    void setX(const QVector<double> &x)
     {
         mX = x;
     }
 
-    void setY(const QVector<double> y)
+    void setY(const QVector<double> &y)
     {
         mY = y;
     }
